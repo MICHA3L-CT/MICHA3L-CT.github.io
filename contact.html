@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fab Gadget Ltd.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <!-- This section is the header of the webpage -->
+    <header>
+      <img src="img.png" alt="Fab Gadget Logo" width="100px" height="100px" />
+      <h1>Fab Gadget Ltd.</h1>
+      <h2>Delivering quality and innovative robotics to your home</h2>
+    </header>
+    <!-- This section is the navigation bar -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mower.html">Robot Mowers</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- This is the main content area of the page -->
+    <main>
+      <h1>Contact Us</h1>
+
+      <p>Fab Gadget Ltd, based in London, is a gadget company focused on creating cutting-edge technology that enhances everyday life. Their mission is to empower individuals and businesses with intuitive, user-friendly devices. From smart home gadgets to wearables, each product is designed with sustainability and functionality in mind. With a commitment to innovation, Fab Gadget Ltd aims to shape a smarter, more connected future.</p>
+
+      <p>Telephone: 07465847677</p>
+
+      <!-- Embedded Google Maps -->
+      <div class="map-container">
+        <h2>Our Location</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451150.80206770176!2d-0.6420185333654324!3d51.342768645309675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876057becd97e61%3A0x84924c4c7b900cf3!2sNigerian%20High%20Commission%20Visa%20Office!5e0!3m2!1sen!2suk!4v1741693724643!5m2!1sen!2suk"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <!-- Formspree Form -->
+      <form action="https://formspree.io/f/xrbpgknb" method="POST">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </main>
+
+    <!-- This is the footer -->
+    <footer>
+      <ul id="social">
+        <li><a href="https://www.facebook.com">Like us on Facebook!</a></li>
+        <li><a href="https://www.instagram.com">Follow us on Instagram!</a></li>
+        <li><a href="https://www.twitter.com">Check out our page on Twitter!</a></li>
+      </ul>
+      <ul id="legal">
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
